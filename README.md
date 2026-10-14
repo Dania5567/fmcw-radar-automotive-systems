@@ -418,16 +418,6 @@ The spread of multiple detections around one nominal target is visible in the so
 
 **What the academic materials demonstrate:** a large modular set of FMCW radar design studies, explanations and simulated outputs, covering radar configuration, digital range–Doppler/array/detection processing, approximation to finite-precision arithmetic and RTL-oriented block design.
 
-**Important limitations:**
-
-1. **No executable source in the supplied uploads.** The original MATLAB `.m`/`.slx`, Verilog/SystemVerilog source, Vivado `.xpr`, testbenches, waveform databases and numerical raw result files were not supplied. Screenshots cannot be reverse-engineered into an authentic runnable implementation.
-2. **Simulation is not physical deployment.** The defense explicitly describes the custom DSP design as simulation-only and its hardware as a later integration path. Do not equate reported RTL simulation with an FPGA demonstration or vehicle-ready system.
-3. **Parameter configurations differ.** The baseline thesis Table 1, radar-app bandwidth experiments and block-diagram FFT sizes represent different configurations; they are not a single internally identical run.
-4. **Scenario accuracy varies.** Original slides show differing actual and estimated distances, multiple candidate detections per target and outputs requiring calibration/association.
-5. **Claims of comparative superiority** over other sensing modalities would need matched experimental datasets, baselines and repeatable metrics before being treated as a general established performance result.
-
-**Possible extensions:** add MATLAB source and parameters; provide deterministic radar cubes; compare range/velocity errors across SNR, weather and precision modes; validate CFAR Pd/Pfa with many repeated trials; provide verified RTL testbenches and post-synthesis utilization reports; implement a reproducible hardware-in-the-loop experiment; and add temporal tracking/association tests.
-
 ## 15. Selected figures, sources and repository files
 
 All images embedded above are local repository files under `assets/figures/`. They display on GitHub only when that folder is uploaded with `README.md`. Only the relevant drawings, charts, and result screenshots were extracted; the full final-defense presentation is deliberately excluded.
