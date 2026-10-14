@@ -33,7 +33,7 @@
 
 This bachelor’s final-year research project investigated a **frequency-modulated continuous-wave (FMCW) radar processing system** intended for automotive sensing and advanced driver-assistance systems (ADAS). FMCW radar transmits a frequency-swept signal and analyzes the returning echo to estimate the **distance (range)** and **relative radial speed (Doppler)** of objects. Multiple antenna channels can also be combined to estimate or emphasize object direction.
 
-The main engineering emphasis was the **digital signal processing (DSP) architecture**: constructing radar scenes and evaluating an end-to-end processing chain, then breaking it into independently understandable functional units. The defense describes a **modular MATLAB floating-point simulation** using range–Doppler FFT, beamforming, CFAR, clustering and estimation, plus **quantization modeling** for hardware-oriented work. RTL/FFT architectural diagrams, simulated detection outputs and waveforms are also documented. The project overview identifies **Xcelerium** as the external project source; that description is reported from the defense slide, not an independently verified affiliation.
+The main engineering emphasis was the **digital signal processing (DSP) architecture**: constructing radar scenes and evaluating an end-to-end processing chain, then breaking it into independently understandable functional units. The defense describes a **modular MATLAB floating-point simulation** using range–Doppler FFT, beamforming, CFAR, clustering and estimation, plus **quantization modeling** for hardware-oriented work. RTL/FFT architectural diagrams, simulated detection outputs and waveforms are also documented. 
 
 **Core DSP flow:**
 
