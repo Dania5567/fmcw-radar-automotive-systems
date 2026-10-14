@@ -7,9 +7,6 @@
 **Authors:** Dania Farrukh Ghouri · Muhammad Ahmad Nazir · Zunaira Aziz  
 **Supervisor:** Dr. Shahzad Younis · **Co-advisor:** Dr. Arbab Latif
 
-> **Project documentation repository.** This repository contains the original bachelor's thesis and selected **figure crops sourced from the final-defense presentation**. The complete defense slide deck is intentionally **not included**. MATLAB, Simulink and RTL source files were not supplied and are not represented as reproducible code.
-
-
 ![Signal-processing architecture: range–Doppler, beamforming, CFAR and estimation](assets/figures/defense_014.jpg)
 
 *Signal-processing architecture — cropped from the project defense figure (slide 14).*
